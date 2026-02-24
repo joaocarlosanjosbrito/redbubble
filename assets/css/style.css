@@ -1,0 +1,345 @@
+* { 
+    width: fit-content;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    font-family:'Myriad Pro Regular';
+    background-color: white;
+    
+}
+
+/*CONFIGURAÇÃO CSS*/
+
+
+
+.cabecalho {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;   /* ALINHA O TEXTO CERTINHO, MUITO UTIL */
+    align-items: center;
+
+    
+}
+
+.fas{
+    color: #FF9000;
+    margin-right: 14px;
+    margin-left: -35px;
+}
+
+.cabecario p{
+    font-size: 18px;
+
+    
+    
+}
+
+#cebook {
+    width: 74px;
+    height: 32px;
+    display: inline-grid;
+    margin-top: 13px;
+    border: solid 2px;
+    justify-content: space-evenly;
+
+
+}
+#cebook p{
+    margin-top: 2px;
+}
+/* .dozex{
+    font-size: 25px;
+
+} */
+.container1 {
+    width: 100%;
+    height: 700px;
+    background-color: #931B1D;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    
+
+}
+.container2 {
+    width: 100%;
+    height: 920px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+    background-color: white;
+}
+.container3 {
+    width: 100%;
+    height: 956px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+    margin-top: 56px;
+    text-align: center;
+}
+.container4 {
+    width: 100%;
+    height: 691px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #931B1D;
+    text-align: center;
+}
+
+.contred { 
+    margin-top: 50px;
+    width: 43%;
+    height: 216px;
+    text-align: center;
+    color: white;
+    font-family:'Myriad Pro Regular';
+    font-size:100px"
+    /* background-color: aqua; */
+
+
+    
+}
+
+.contred p{
+    font-size: 22px;
+    
+}
+
+.containerred {
+    width: 446px;
+    height: 475px;
+    text-align: center;
+    display: inline-table;
+    font-family:'Myriad Pro Regular';
+}
+#imagemred{
+    width: 270px;
+    height: 335px;
+    text-align: center;
+    margin-top: 65px;
+    
+
+}
+.contblack{
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 607px;
+    margin-top: 60px;
+}
+.contwhite {
+    color: black;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 607px;
+}
+.contwhite p{
+    font-size: 26px;
+    text-align: initial;
+    margin: 30px;
+}
+.contblack p {
+    font-size: 26px;
+    text-align: initial;
+    margin: 30px;
+
+}
+#botao {
+    background-color: #FF9000;
+    color: white;
+    padding: 17px;
+    padding-inline: 40px;
+    border-radius: 30px;
+    border-color: white;
+    border: none;
+    height: 46px;
+    width: 219px;
+    margin-bottom: 18px
+    
+}
+#botao a{
+    color: white !important;
+}
+#botao2{
+    background-color: #FF9000;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    height: 46px;
+    width: 219px;
+    margin-bottom: 18px;
+
+}
+.bt2{
+    margin-left: 10px;
+    display: inline;
+    color: white;
+
+}
+.linkebook {
+    height: 292px;
+    width: 290px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+
+ #imagem {
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border-color: white;
+    border: none;
+    height: 20px;
+    width: 219px;
+    margin-bottom: -13px;
+     
+
+}
+
+
+
+.bt {
+    width: 240px;
+    height: 257px;
+    margin-right: 29px;
+}
+#imagem2 {
+    margin-left: 193px;
+    width: 135%;
+    height: 343px;
+    margin-top: -63px;
+}
+
+.rodape {
+    width: 100%;
+    height: 485px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+    margin-top: 56px;
+    text-align: center;
+
+
+}
+
+.rodapeblack {
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 607px;
+    margin-top: 60px;
+    font-family:'Myriad Pro Regular';
+}
+.rodapeblack p{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    margin: 30px;
+}
+.rodapeblack h6{
+    color: white;
+    margin-top: 100px;
+}
+#num9 {
+    color: #FF9000;
+    font-size: 48px;
+    margin-left: 9px;
+    margin-right: -52px;
+}
+#num92 {
+    color: #FF9000;
+    font-size: 48px;
+    margin-right: -19px;
+}
+#porh4 {
+    margin-bottom: -8px;
+    margin-left: 68px;
+
+}
+#porapenas {
+    margin-bottom: -5px;
+    margin-left: 177px;
+}
+#poravista {
+    margin-left: 152px;
+}
+#poravista2 {
+    margin-left: 45px;
+}
+#rodah6 {
+    margin-left: 76px;
+    font-size: 18px;
+
+}
+
+
+
+/* Animação */
+[data-anime]{
+    opacity: 0;
+    transition: .5s;
+
+}
+[data-anime="cont2"]{
+    transform: translate(-600px);
+    /* transform: rotate(-180deg); */
+}
+
+[data-anime="cont3"]{
+    /* transform: scale(1.2); */
+    transform: rotate(180deg);
+    /* transform: translate(-600px); */
+    
+}
+[data-anime="cont4"]{
+    /* transform: scale(1.2); */
+    /* transform: translate(-400px); */
+    transform: translateY(300px);
+    /* transform: skew(25deg, 20deg); */
+
+    
+}
+[data-anime="cont5"]{
+    /* transform: scale(1.2); */
+    /* transform: translateX(300px); */
+    transform: translate(0px, 0, 0);
+    /* transform: rotate(90deg) translate(-10px, -100px); */
+ 
+    
+}
+[data-anime="rodap"]{
+    /* transform: scale(1.2); */
+    transform: translate(0px, 0, 0);
+    /* transform: translate(-600px); */
+    
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+}
